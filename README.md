@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import scasum from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-wasm-scasum@esm/index.mjs';
+import scasum from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-wasm-scasum@v0.1.0-esm/index.mjs';
 ```
 
 #### scasum.main( N, x, strideX )
@@ -272,7 +272,7 @@ The function has the following additional parameters:
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform@esm/index.mjs';
 import filledarrayBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-filled-by@esm/index.mjs';
 import Complex64 from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float32-ctor@esm/index.mjs';
-import scasum from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-wasm-scasum@esm/index.mjs';
+import scasum from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-wasm-scasum@v0.1.0-esm/index.mjs';
 
 function rand() {
     return new Complex64( discreteUniform( 0, 10 ), discreteUniform( -5, 5 ) );
